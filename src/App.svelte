@@ -2,6 +2,7 @@
   import rawTranslations from "./translations.json";
   import { resumeData, linksMap } from "./data";
   import { tick, onMount } from "svelte";
+  import { each } from "svelte/internal";
 
   const parseQuery = (searchString)=>{
     const searchItems = searchString.slice(1).split("&");
@@ -87,7 +88,11 @@
         <span class="years-of-experience">{data.yearsOfExperience}</span>
       </div>
       <div class="header-item">
-        <div class="mgr-2">
+         <span style="margin-right: 0.2rem;min-width: 1.4rem;"><span style="margin-right: 0.1rem;">基本信息:</span> 男 / 34</span>
+         <span><span style="margin-right: 0.1rem;">学历:</span>硕士（全日制）</span>
+      </div>
+      <div class="header-item">
+        <div class="mgr-2" style="min-width: 1.4rem;">
           <span class="mgr-1">{translations["phone"]}:</span><a
             class="phone-number content-link"
             href={`tel:${data.phoneNumber}`}>{data.phoneNumber}</a
@@ -139,6 +144,20 @@
       </div>
     </div>
     <div class="body">
+      <div class="section">
+        <div class="section-title">
+          <span>技能</span>
+        </div>
+        {#each data.skills as skill, index}
+        <div class="list-item content-text">
+          <div class="item-content">
+            <span class="item-index">{@html `${index + 1}.`}</span>
+            <span>{skill}</span>
+          </div>
+        </div>
+        {/each}
+      </div>
+
       <div class="section">
         <div class="section-title">
           <span>{translations.workedCompanies}</span>

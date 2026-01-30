@@ -1,80 +1,96 @@
 export const resumeData = {
   zh: {
     language: "中文",
-    name: "吴岷士",
+    name: "邹成",
     avatarUrl: "./avatar.jpg",
     avatarLink: "https://vue-color-avatar.vercel.app/",
     currentStatus: "正在看机会",
     expectedJob: "高级前端开发工程师",
-    yearsOfExperience: "4 年工作经验",
-    introduction:
-      "4 年的 PC 、移动端 Web <b>工程化</b>开发经验；熟练掌握 Vue.js 和 React.js 技术栈 <b>B、C 端开发</b>；善于通过使用工具、开发<b>工具提升效率</b>；注重<b>细节与质量</b>；乐于学习、热爱开源、热爱技术；有丰富的<b>跨团队协作</b>经验。",
-    currentCity: "上海",
+    yearsOfExperience: "8 年工作经验",
+    introduction: "",
+    currentCity: "武汉",
     expectedCity: "",
     education: [
       {
-        name: "京海大学",
+        name: "燕山大学",
         degree: "硕士",
-        dateRange: "2018/09 ~ 2020/06",
-        major: "计算机科学",
-        duration: "2年",
+        dateRange: "2013/09 ~ 2016/06",
+        major: "机械电子工程",
+        duration: "3年",
       },
       {
-        name: "京海大学",
+        name: "武昌首义学院",
         degree: "本科",
-        dateRange: "2014/09 ~ 2018/06",
-        major: "计算机科学",
+        dateRange: "2009/09 ~ 2013/06",
+        major: "机械与自动化",
         duration: "4年",
       },
     ],
-    phoneNumber: "1336666****",
+    phoneNumber: "18986101373",
     magicCode: "7777",
-    email: "johndoe@gmail.com",
+    email: "775106512@qq.com",
     skillTags: [
-      "Vue.js",
-      "Next.js",
-      "Node.js",
-      "Git",
-      "SCSS",
-      "微信小程序",
-      "Figma",
-      "Chrome扩展",
-      "Electron",
+      // "Vue.js",
+      // "Next.js",
+      // "Node.js",
+      // "Git",
+      // "SCSS",
+      // "微信小程序",
+      // "Figma",
+      // "Chrome扩展",
+      // "Electron",
+    ],
+    skills: [
+      "熟练掌握 HTML、CSS、JavaScript 等 web 前端基础知识",
+      "熟练掌握 Vue 前端框架，了解框架原理",
+      "熟练使用 Uni-app 开发微信小程序",
+      "了解 React 框架开发模式, 有 React Native (含 Expo)开发经验",
+      "熟练使用 SVG、Canvas 等绘图技术",
+      "掌握不同场景前端技术方案选型方法",
+      "有一定 Web 性能优化 & Web 安全优化经验",
     ],
     workedCompanies: [
       {
-        name: "一家公司",
-        link: "https://www.baidu.com/",
-        dateRange: "2021/01 ~ 2024/01",
-        dateRangeYears: "3 年",
+        name: "武汉旷视金智科技",
+        link: "",
+        dateRange: "2020/12 ~ 2026/01",
+        dateRangeYears: "5 年",
         jobTitle: "高级前端开发工程师",
-        tags: ["HTML", "CSS", "JavaScript"],
+        tags: [],
         projects: [
           {
             duties: [
-              "负责公司网站前端开发工作，参与多个项目的前端设计和开发",
-              "熟练掌握HTML、CSS、JavaScript等前端技术，能够独立完成页面布局和交互效果的实现",
-
-              "参与过多个项目的需求分析和产品设计，能够根据用户需求进行页面优化和功能改进",
-              "与后端工程师密切合作，确保前后端数据的顺畅传输和页面的良好展示",
+              `带领 4 名初、中级前端工程师完成"越影"数据标注平台的开发`,
+              `个人独立完成"玲珑 AIoH"智能门锁小程序 & H5 页面的开发`,
+              `参与"盘古"安防部署管理平台开发`,
+              // `参与前端监控项目"MegGuard"的开发`,
             ],
           },
         ],
       },
       {
-        name: "另一个公司",
-        dateRange: "2020/01 ~ 2021/01",
-        dateRangeYears: "1 年",
+        name: "中通天鸿",
+        dateRange: "2019/04 ~ 2020/12",
+        dateRangeYears: "1.5 年",
+        jobTitle: "前端开发工程师",
+        tags: [],
+        projects: [
+          {
+            duties: ["负责 工单 & IM 系统的开发", "负责 CRM 管理后台的开发"],
+          },
+        ],
+      },
+      {
+        name: "深圳微易通网络科技",
+        dateRange: "2017/10 ~ 2019/04",
+        dateRangeYears: "1.5 年",
         jobTitle: "前端开发工程师",
         tags: [],
         projects: [
           {
             duties: [
-              "负责公司网站前端开发工作，参与多个项目的前端设计和开发",
-              "熟练掌握HTML、CSS、JavaScript等前端技术，能够独立完成页面布局和交互效果的实现",
-
-              "参与过多个项目的需求分析和产品设计，能够根据用户需求进行页面优化和功能改进",
-              "与后端工程师密切合作，确保前后端数据的顺畅传输和页面的良好展示",
+              `参与"金民门"黄金交易 App 的开发`,
+              `负责 "Wecheetah" 管理后台的开发`,
             ],
           },
         ],
@@ -82,39 +98,57 @@ export const resumeData = {
     ],
     projects: [
       {
-        title:
-          '<a class="content-link" href="https://baidu.com/" target="_blank">一个项目</a>',
-        description: "这个项目的简述",
-        dateRange: "2021/01 ~ 2024/01",
+        title: "越影标注平台",
+        description:
+          "供标准员进行数据标注的工具平台，得到的标注数据集用于 AI 模型训练。",
+        dateRange: "",
         duties: [
-          "负责电商平台前端页面的设计和开发工作，实现了商品展示、购物车、订单管理等功能",
-          "使用Vue.js框架搭建前端页面，实现了页面的动态加载和交互效果",
-          "与后端工程师协作，确保数据的准确传输和页面的良好展示",
+          "包含属性、矩形框、多边形、视频关键帧、图片分割等数据标注",
+          "使用 Vue 框架 element 组件库构建基础平台，集成标注工具库到基础平台",
+          "标注工具库基于 Tow.js、SVG、Canvas 等库、技术实现",
         ],
       },
       {
-        title:
-          '<a class="content-link" href="https://baidu.com/" target="_blank">一个项目</a>',
-        description: "这个项目的简述",
+        title: "玲珑 AIoH 小程序",
+        description:
+          "供购买智能门锁的用户使用，包含蓝牙添加设备、WIFI 配网、实时音视频、远程开门、商城微信支付、陌生人报警等功能",
         duties: [
-          "负责电商平台前端页面的设计和开发工作，实现了商品展示、购物车、订单管理等功能",
-          "使用Vue.js框架搭建前端页面，实现了页面的动态加载和交互效果",
-          "与后端工程师协作，确保数据的准确传输和页面的良好展示",
+          "小程序使用 Uni-app 框架 uni-ui 组件库构建，",
+          `实时音视频通过小程序内集成"声网 SDK"实现，通过"声网云信令"与门锁硬件通信实现开流、关流通知`,
+          "与硬件工程师协商 BLE(蓝牙低功耗) 协议进行门锁设备属性获取、WIFI 配网等通信",
+          "通过 WebSocket 实时监听开门请求，用户授权开门后，等待开门结果回执并作出响应",
+          "为避免频繁发布审核，商城、活动等迭代频繁页面使用 Webview 嵌套 H5 页面(Vue3 + vant)实现",
+        ],
+      },
+      {
+        title: "工单 & IM 系统",
+        description: "供客服使用的工单管理平台与 IM 客诉处理平台",
+        duties: [
+          "使用 React 框架 antd-design 组件库构建",
+          "使用 WebSocket 实现 IM 通信",
+          "通过 react-virtual 优化较大数据量消息渲染卡顿",
+          "支持 DND(拖放) 创建动态工单表单模板，基于 react-dnd 实现",
+        ],
+      },
+      {
+        title: `"金名门" App`,
+        description:
+          "供 C 端客户购买黄金和其他商品的 App，参与了 Android 分组的开发工作",
+        duties: [
+          "使用 React Native 框架，antd-design-mobile-rn 组件库构建",
+          "使用 react-native-maps 展示当前物流信息",
+          "使用 WebSocket 实现黄金买卖、存储等推送",
         ],
       },
     ],
     certificates: {
-      items: ["英语6级", "普通话一级甲等"],
+      items: ["英语6级", "英语4级"],
     },
     languages: {
-      items: ["汉语（母语）", "英语（流利）"],
+      items: ["汉语（母语）", "英语"],
     },
     links: {
-      items: [
-        { title: "个人博客", href: "https://baidu.com" },
-        { title: "关于我", href: "https://baidu.com" },
-        { title: "GitHub", href: "https://github.com" },
-      ],
+      items: [{ title: "GitHub", href: "https://github.com/woshiqiang1" }],
     },
     footer: "",
   },
@@ -169,10 +203,7 @@ export const resumeData = {
         dateRange: "01/2021 ~ 01/2024",
         dateRangeYears: "3 Years",
         jobTitle: "Senior Front-end Developer",
-        tags: [
-          "Next.js",
-          "Vue.js",
-        ],
+        tags: ["Next.js", "Vue.js"],
         projects: [
           {
             duties: [
